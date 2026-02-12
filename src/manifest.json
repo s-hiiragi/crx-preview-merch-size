@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Preview Goods Size",
+    "description": "サイズ表記テキスト(例:H100mm×W148)を選択して右クリックし、「実寸サイズをプレビュー」を選択",
+    "version": "1.0",
+
+    "icons": {
+        "16": "icon16.png"
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content_script.js"]
+        }
+    ],
+
+    "background": {
+        "service_worker": "service_worker.js"
+    },
+
+    "permissions": [
+        "contextMenus"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ]
+}
