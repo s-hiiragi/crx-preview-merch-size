@@ -1,6 +1,6 @@
 const displaySettings = [
     { width: 1920, height: 1080, diagonalInch: 23.8 },
-    { width: 2560, height: 1441, diagonalInch: 27.9 }, /* 150% */
+    { width: 2560, height: 1440, diagonalInch: 27.9 }, /* 150% */
     { width: 3840, height: 2160, diagonalInch: 27.9 },
 ];
 
